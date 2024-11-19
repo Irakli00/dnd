@@ -1,0 +1,49 @@
+body{
+  background-color: #333;
+  color: white;
+}
+
+#draggable-table-1,#draggable-table-2, #tasks{
+  padding: 10px;
+  border: 1px solid white;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  margin: 50px auto;
+  max-width: 50%;
+}
+
+#tasks li{
+  color: cadetblue;
+  border: 1px solid chocolate;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#draggable-table-1 li{
+  border: 1px solid red;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#draggable-table-2 li{
+  border: 1px solid royalblue;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.red-background-drag{
+  background-color: red;
+}
+
+.blue-background-drag{
+  background-color: royalblue;
+}
+
+.filtered{
+  background-color: gray;
+  color: black;
+  border: none !important;
+}
